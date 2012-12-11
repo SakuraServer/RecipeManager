@@ -2238,7 +2238,7 @@ public class Recipes
 
 		Furnace furnace = (Furnace)blockState;
 
-		if(furnace.getBurnTime() <= 0) // furnace is not really running
+		if(furnace == null || furnace.getBurnTime() <= 0) // furnace is not really running
 			return null;
 
 		return furnace;
