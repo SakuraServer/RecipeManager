@@ -2,12 +2,12 @@ package digi.recipeManager;
 
 import java.util.*;
 
-import net.minecraft.server.v1_4_5.TileEntity;
-import net.minecraft.server.v1_4_5.TileEntityFurnace;
+import net.minecraft.server.v1_4_6.TileEntity;
+import net.minecraft.server.v1_4_6.TileEntityFurnace;
 
 import org.bukkit.*;
 import org.bukkit.block.*;
-import org.bukkit.craftbukkit.v1_4_5.CraftChunk;
+import org.bukkit.craftbukkit.v1_4_6.CraftChunk;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event.Result;
@@ -975,7 +975,7 @@ public class Events implements Listener
 		if(chunk == null || RecipeManager.recipes.furnaceSmelting == null)
 			return;
 
-		net.minecraft.server.v1_4_5.Chunk mcChunk = ((CraftChunk)chunk).getHandle();
+		net.minecraft.server.v1_4_6.Chunk mcChunk = ((CraftChunk)chunk).getHandle();
 		TileEntity tile;
 
 		for(Object obj : mcChunk.tileEntities.values())
