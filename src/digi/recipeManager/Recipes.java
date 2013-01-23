@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.Map.Entry;
 import java.util.logging.*;
 
-import net.minecraft.server.v1_4_6.*;
+import net.minecraft.server.v1_4_R1.*;
 
 import org.bukkit.*;
 import org.bukkit.Material;

@@ -275,14 +275,14 @@ public class RecipeManager extends JavaPlugin
 
 		// Apply item return items
 
-		net.minecraft.server.v1_4_6.Item.WATER_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_6.Item.BUCKET : null));
-		net.minecraft.server.v1_4_6.Item.LAVA_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_6.Item.BUCKET : null));
-		net.minecraft.server.v1_4_6.Item.MILK_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_6.Item.BUCKET : null));
+		net.minecraft.server.v1_4_R1.Item.WATER_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_R1.Item.BUCKET : null));
+		net.minecraft.server.v1_4_R1.Item.LAVA_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_R1.Item.BUCKET : null));
+		net.minecraft.server.v1_4_R1.Item.MILK_BUCKET.a((settings.RETURN_BUCKETS ? net.minecraft.server.v1_4_R1.Item.BUCKET : null));
 
-		net.minecraft.server.v1_4_6.Item.MUSHROOM_SOUP.a((settings.RETURN_BOWL ? net.minecraft.server.v1_4_6.Item.BOWL : null));
+		net.minecraft.server.v1_4_R1.Item.MUSHROOM_SOUP.a((settings.RETURN_BOWL ? net.minecraft.server.v1_4_R1.Item.BOWL : null));
 
-		net.minecraft.server.v1_4_6.Item.POTION.a((settings.RETURN_POTIONS ? net.minecraft.server.v1_4_6.Item.GLASS_BOTTLE : null));
-		net.minecraft.server.v1_4_6.Item.EXP_BOTTLE.a((settings.RETURN_POTIONS ? net.minecraft.server.v1_4_6.Item.GLASS_BOTTLE : null));
+		net.minecraft.server.v1_4_R1.Item.POTION.a((settings.RETURN_POTIONS ? net.minecraft.server.v1_4_R1.Item.GLASS_BOTTLE : null));
+		net.minecraft.server.v1_4_R1.Item.EXP_BOTTLE.a((settings.RETURN_POTIONS ? net.minecraft.server.v1_4_R1.Item.GLASS_BOTTLE : null));
 
 		// readme.txt
 
